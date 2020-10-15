@@ -1,4 +1,3 @@
-# Based from Riot Games script
 FROM centos:centos8
 LABEL maintainer="mrmonk@monkmouse.net"
 
@@ -29,5 +28,3 @@ RUN chown -R ${user}:${user} /home/${user}
 # Add the jenkins user to sudoers
 RUN echo "${user}    ALL=(ALL)    ALL" >> etc/sudoers
 
-# Set Name Servers
-COPY /files/resolv.conf /etc/resolv.conf
