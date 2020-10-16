@@ -3,8 +3,10 @@ This repo will host Docker build files and related documentation for DevOps rela
 
 # Primary Use Case: Build a Docker/Jenkins Environment
 1. Build a Jenkins/Docker environment for builds
-2. Documentation on Docker setup
+2. Documentation on Docker setup with links to official documentation
+    * Overview and resources
 3. Documentation on Jenkins with links to official documentation 
+    * Overview and resources
 4. Setup Jenkins plug-ins for Docker
 5. Jenkins Master / Agent Resources
 6. JNLP vs SSH Resources
