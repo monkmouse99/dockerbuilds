@@ -1,5 +1,5 @@
 # Docker Builds
-This repo will host Docker build files and related documentation for DevOps related topics.  
+This repo will host Docker build files, scripts and related documentation for DevOps environments
 
 # Primary Use Case: Build a Docker/Jenkins Environment
 1. Build a Jenkins/Docker environment for builds
