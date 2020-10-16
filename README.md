@@ -1,8 +1,15 @@
 # Docker Builds
-This repo will host Docker build files, scripts and related documentation for DevOps environments
+This repo will host build files, scripts and related documentation for a DevOps environment based on the following toolset with the focus on Linux/Windows.
+   * Docker 
+   * Jenkins with Docker integration and agent templates
+   * Python (optional)
 
 # Primary Use Case: Build a Docker/Jenkins Environment
-1. Build a Jenkins/Docker environment for builds
+1. Architectural Overview 
+    * Option 1: All-in-one-build on development box 
+    * Option 2: Distributed build
+         * Development station using /var/run/docker.sock for Jenkins Docker Plug-in
+         * Dedicated Docker/Jenkins server/workstation using tcp://server:port for Jenkins Docker Plug-in
 2. Documentation on Docker setup with links to official documentation
     * Overview and resources
 3. Documentation on Jenkins with links to official documentation 
@@ -12,4 +19,4 @@ This repo will host Docker build files, scripts and related documentation for De
 6. JNLP vs SSH Resources
    * Configure Docker agent templates with JNLP
    * Configure Docker agent templates with SSH
-
+7. Testing Agents 
