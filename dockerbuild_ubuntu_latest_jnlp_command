@@ -1,0 +1,1 @@
+docker build -t jenkins_ubuntu_latest_jnlp -f jenkins_ubuntu_latest_jnlp_dockerfile .

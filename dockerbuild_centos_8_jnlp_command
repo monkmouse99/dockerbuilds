@@ -1,0 +1,1 @@
+docker build -t jekins_centos_8_jnlp -f jenkins_centos_8_jnlp_dockerfile .

@@ -1,9 +1,12 @@
 FROM ubuntu:20.04
+ENV TZ=America/Chicago
+RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
 LABEL maintainer="mrmonk@monkmouse.net"
 
 # Install Essentials
-RUN apt-get update -y && \
-    apt-get upgrade
+RUN apt-get -y update && \
+    apt-get -y upgrade && \
+    apt-get install -y build-essential
 
 # Install Packages
 RUN apt-get install -y git && \
