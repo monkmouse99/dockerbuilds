@@ -14,7 +14,8 @@ This repo will host build files, scripts and related documentation for a DevOps 
         * Placeholder for Ubuntu Jenkins/Docker setup on the same box
         * Placeholder for Windows Jenkins/Docker setup on the same box
         * Placeholder for Raspberry Pi Jenkins/Docker setup on the same box
-    * Option 2: Distributed build with one central Jenkins master and multiple Docker clouds with agent templates using *tcp://server:port* for Jenkins Docker Plugin
+    * Option 2: Distributed build with one central Jenkins master and multiple Docker clouds 
+       with agent templates using *tcp://server:port* for Jenkins Docker Plugin
         * Placeholder for master Windows Jenkins/Docker server with distributed Docker clouds on various OS
         * Placeholder for master Ubuntu Jenkins/Docker server with distributed Docker clouds on various OS
         * Placeholder for master Raspberry Pi Jenkins/Docker server with distributed Docker clouds on various OS
