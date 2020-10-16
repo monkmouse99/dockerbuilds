@@ -27,4 +27,3 @@ RUN chown -R ${user}:${user} /home/${user}
 
 # Add the jenkins user to sudoers
 RUN echo "${user}    ALL=(ALL)    ALL" >> etc/sudoers
-
