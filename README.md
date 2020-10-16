@@ -2,7 +2,11 @@
 This repo will host build files, scripts and related documentation for a DevOps environment based on the following toolset with the focus on Linux/Windows.
    * Docker 
    * Jenkins with Docker integration and agent templates
-   * Python (optional)
+   * Python (optional) used primarily for testing
+   
+# Super Awesome Tutorials from the Inter-Web
+  * Maxfield Stewart's well written post on Riot Games [Tutorial](https://technology.riotgames.com/news/jenkins-ephemeral-docker-tutorial)
+  * Phillip Edwards excellent 4-part series on setting up a Jenkins Home Lab - [Part 1](https://www.gdcorner.com/2019/12/27/JenkinsHomeLab-P1-MasterSetup.html)
 
 # Primary Use Case: Build a Docker/Jenkins Environment
 1. Architectural Overview 
