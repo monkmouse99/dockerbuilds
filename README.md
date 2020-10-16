@@ -7,8 +7,8 @@ This repo will host Docker build files and related documentation for DevOps rela
     * Overview and resources
 3. Documentation on Jenkins with links to official documentation 
     * Overview and resources
-4. Setup Jenkins plug-ins for Docker
-5. Jenkins Master / Agent Resources
+4. Setup Docker plug-ins for Jenkins to setup Docker Cloud
+5. Jenkins Master / Agent Resources and Docker Agent Templates
 6. JNLP vs SSH Resources
    * Configure Docker agent templates with JNLP
    * Configure Docker agent templates with SSH
