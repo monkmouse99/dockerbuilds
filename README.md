@@ -11,12 +11,12 @@ This repo will host build files, scripts and related documentation for a DevOps 
   
 # Primary Use Case: Build a Docker/Jenkins Environment
 1. Architectural Overview 
-    * Option 1: All-in-one-build on development box using */var/run/docker.sock* for Jenkins Docker Plug-in
+    * Option 1: All-in-one-build on development box using localhost and */var/run/docker.sock*
         * Placeholder for Ubuntu Jenkins/Docker setup on the same box
         * Placeholder for Windows Jenkins/Docker setup on the same box
         * Placeholder for Raspberry Pi Jenkins/Docker setup on the same box
     * Option 2: Distributed build with one central Jenkins master and multiple Docker clouds 
-       with agent templates using *tcp://server:port* for Jenkins Docker Plugin
+        using *tcp://server:port* 
         * Placeholder for master Windows Jenkins/Docker server with distributed Docker clouds on various OS
         * Placeholder for master Ubuntu Jenkins/Docker server with distributed Docker clouds on various OS
         * Placeholder for master Raspberry Pi Jenkins/Docker server with distributed Docker clouds on various OS
